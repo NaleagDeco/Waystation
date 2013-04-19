@@ -18,6 +18,8 @@
 		ACB1FE9F17220610009008D5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACB1FE9E17220610009008D5 /* Default-568h@2x.png */; };
 		ACB1FEA217220610009008D5 /* SAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB1FEA117220610009008D5 /* SAViewController.m */; };
 		ACB1FEA517220610009008D5 /* SAViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACB1FEA317220610009008D5 /* SAViewController.xib */; };
+		ACB1FEAD17220A4D009008D5 /* DDMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB1FEAC17220A4D009008D5 /* DDMenuController.m */; };
+		ACB1FEB017220AFD009008D5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB1FEAE17220AA1009008D5 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,9 @@
 		ACB1FEA017220610009008D5 /* SAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAViewController.h; sourceTree = "<group>"; };
 		ACB1FEA117220610009008D5 /* SAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAViewController.m; sourceTree = "<group>"; };
 		ACB1FEA417220610009008D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SAViewController.xib; sourceTree = "<group>"; };
+		ACB1FEAB17220A4D009008D5 /* DDMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMenuController.h; sourceTree = "<group>"; };
+		ACB1FEAC17220A4D009008D5 /* DDMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMenuController.m; sourceTree = "<group>"; };
+		ACB1FEAE17220AA1009008D5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACB1FEB017220AFD009008D5 /* QuartzCore.framework in Frameworks */,
 				ACB1FE8917220610009008D5 /* UIKit.framework in Frameworks */,
 				ACB1FE8B17220610009008D5 /* Foundation.framework in Frameworks */,
 				ACB1FE8D17220610009008D5 /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +79,7 @@
 		ACB1FE8717220610009008D5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				ACB1FEAE17220AA1009008D5 /* QuartzCore.framework */,
 				ACB1FE8817220610009008D5 /* UIKit.framework */,
 				ACB1FE8A17220610009008D5 /* Foundation.framework */,
 				ACB1FE8C17220610009008D5 /* CoreGraphics.framework */,
@@ -88,6 +95,8 @@
 				ACB1FEA017220610009008D5 /* SAViewController.h */,
 				ACB1FEA117220610009008D5 /* SAViewController.m */,
 				ACB1FEA317220610009008D5 /* SAViewController.xib */,
+				ACB1FEAB17220A4D009008D5 /* DDMenuController.h */,
+				ACB1FEAC17220A4D009008D5 /* DDMenuController.m */,
 				ACB1FE8F17220610009008D5 /* Supporting Files */,
 			);
 			path = Waystation;
@@ -177,6 +186,7 @@
 				ACB1FE9517220610009008D5 /* main.m in Sources */,
 				ACB1FE9917220610009008D5 /* SAAppDelegate.m in Sources */,
 				ACB1FEA217220610009008D5 /* SAViewController.m in Sources */,
+				ACB1FEAD17220A4D009008D5 /* DDMenuController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
