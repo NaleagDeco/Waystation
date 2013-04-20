@@ -7,13 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "DDMenuController.h"
 @class SAViewController;
 
 @interface SAAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
+@property (strong, nonatomic) DDMenuController *menuController;
 @property (strong, nonatomic) SAViewController *viewController;
 
 @end

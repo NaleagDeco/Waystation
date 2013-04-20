@@ -20,6 +20,8 @@
 		ACB1FEA517220610009008D5 /* SAViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACB1FEA317220610009008D5 /* SAViewController.xib */; };
 		ACB1FEAD17220A4D009008D5 /* DDMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB1FEAC17220A4D009008D5 /* DDMenuController.m */; };
 		ACB1FEB017220AFD009008D5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB1FEAE17220AA1009008D5 /* QuartzCore.framework */; };
+		ACB1FEB3172211A9009008D5 /* SALeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB1FEB2172211A9009008D5 /* SALeftViewController.m */; };
+		ACB1FEB6172211D6009008D5 /* SARightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB1FEB5172211D6009008D5 /* SARightViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,10 @@
 		ACB1FEAB17220A4D009008D5 /* DDMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMenuController.h; sourceTree = "<group>"; };
 		ACB1FEAC17220A4D009008D5 /* DDMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMenuController.m; sourceTree = "<group>"; };
 		ACB1FEAE17220AA1009008D5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		ACB1FEB1172211A9009008D5 /* SALeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SALeftViewController.h; sourceTree = "<group>"; };
+		ACB1FEB2172211A9009008D5 /* SALeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SALeftViewController.m; sourceTree = "<group>"; };
+		ACB1FEB4172211D6009008D5 /* SARightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SARightViewController.h; sourceTree = "<group>"; };
+		ACB1FEB5172211D6009008D5 /* SARightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SARightViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +99,10 @@
 				ACB1FE9717220610009008D5 /* SAAppDelegate.h */,
 				ACB1FE9817220610009008D5 /* SAAppDelegate.m */,
 				ACB1FEA017220610009008D5 /* SAViewController.h */,
+				ACB1FEB1172211A9009008D5 /* SALeftViewController.h */,
+				ACB1FEB2172211A9009008D5 /* SALeftViewController.m */,
+				ACB1FEB4172211D6009008D5 /* SARightViewController.h */,
+				ACB1FEB5172211D6009008D5 /* SARightViewController.m */,
 				ACB1FEA117220610009008D5 /* SAViewController.m */,
 				ACB1FEA317220610009008D5 /* SAViewController.xib */,
 				ACB1FEAB17220A4D009008D5 /* DDMenuController.h */,
@@ -187,6 +197,8 @@
 				ACB1FE9917220610009008D5 /* SAAppDelegate.m in Sources */,
 				ACB1FEA217220610009008D5 /* SAViewController.m in Sources */,
 				ACB1FEAD17220A4D009008D5 /* DDMenuController.m in Sources */,
+				ACB1FEB3172211A9009008D5 /* SALeftViewController.m in Sources */,
+				ACB1FEB6172211D6009008D5 /* SARightViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,6 +9,9 @@
 #import "SAAppDelegate.h"
 
 #import "SAViewController.h"
+#import "DDMenuController.h"
+#import "SALeftViewController.h"
+#import "SARightViewController.h"
 
 @implementation SAAppDelegate
 
@@ -21,7 +24,28 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
+    
+    self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]]autorelease];
+    // Override point for customization after application launch.
+    
+    SAViewController *mainController = [[SAViewController alloc] init];
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:mainController];
+    
+    DDMenuController *rootController = [[DDMenuController alloc] initWithRootViewController:navController];
+    _menuController = rootController;
+    
+    SALeftViewController *leftController = [[SALeftViewController alloc] init];
+    rootController.leftViewController = leftController;
+    
+    SARightViewController *rightController = [[SARightViewController alloc] init];
+    rootController.rightViewController = rightController;
+    
+    self.window.rootViewController = rootController;
+    
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    return YES;
+
     // Override point for customization after application launch.
     self.viewController = [[[SAViewController alloc] initWithNibName:@"SAViewController" bundle:nil] autorelease];
     self.window.rootViewController = self.viewController;
